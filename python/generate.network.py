@@ -23,7 +23,7 @@ flags.DEFINE_integer('numberOfBands',3,'Number of bands in training image.')
 flags.DEFINE_float('delta',2.0,' Minimum dB improvement for new layer measured in PSNR.')
 flags.DEFINE_float('min_alpha',0.0001,'Minimum value of perturbative layer parameter.')
 flags.DEFINE_integer('layers_trained',0,'Number of layers previously trained.')
-flags.DEFINE_string('training_image','/home/runge/gsi/utilities/dataset/processedBuildingLabels/3band/3band_AOI_1_RIO_img1.tif','Training image.')
+flags.DEFINE_string('training_image','3band_AOI_1_RIO_img1.tif','Training image.')
 flags.DEFINE_integer('precision',8,'Number of bits per bands.')
 flags.DEFINE_integer('convolutions_per_layer',2,'Number of convolutional layers in each perturbative layer.')
 

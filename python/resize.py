@@ -8,7 +8,7 @@ import tensorflow as tf
 flags = tf.app.flags
 FLAGS = flags.FLAGS
 flags.DEFINE_float('zooming', 4.0, 'Amount to rescale original image.')
-flags.DEFINE_string('input_image','/home/runge/gsi/utilities/dataset/processedBuildingLabels/3band/3band_AOI_1_RIO_img1.tif','Input image.')
+flags.DEFINE_string('input_image','3band_AOI_1_RIO_img1.tif','Input image.')
 flags.DEFINE_string('output_image','out.tif','Output image.')
 
 # open training data and compute initial cost function averaged over the entire image
